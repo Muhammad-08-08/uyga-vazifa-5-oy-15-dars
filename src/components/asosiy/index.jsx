@@ -21,9 +21,11 @@ const HomePage = () => {
           Bu mening shaxsiy veb-sahifam. Men dasturlashni yaxshi ko'raman va
           yangi texnologiyalarni o'rganishga qiziqaman.
         </p>
-        <button className="mt-6 px-6 py-3 bg-blue-600 text-white rounded-lg shadow-md hover:bg-blue-700 transition">
-          Batafsil
-        </button>
+        <Link to={"/batafsil"}>
+          <button className="mt-6 px-6 py-3 bg-blue-600 text-white rounded-lg shadow-md hover:bg-blue-700 transition">
+            Batafsil
+          </button>
+        </Link>
       </main>
       <footer className="w-full bg-gray-800 text-white py-4 text-center">
         &copy; 2025 Barcha huquqlar himoyalangan
